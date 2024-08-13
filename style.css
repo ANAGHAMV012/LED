@@ -101,3 +101,16 @@ button:hover{
     padding-bottom: 400px;
     width: 200px;
 }
+@media screen and (max-width:400px){
+.container{
+    min-width: 90vw;
+    width: 90vw;
+}
+.buttons{
+    width: 100%;
+    gap: 10px;
+}
+button{
+    width: 550px;
+}
+}
